@@ -1,0 +1,128 @@
+/*.calculator {*/
+/*    max-width: 300px;*/
+/*    margin: 3rem auto;*/
+/*    padding: 1rem;*/
+/*    background: #282c34;*/
+/*    border-radius: 8px;*/
+/*    color: white;*/
+/*}*/
+
+/*.display {*/
+/*    background: #1e1e1e;*/
+/*    padding: 1rem;*/
+/*    border-radius: 4px;*/
+/*    font-size: 1.5rem;*/
+/*    margin-bottom: 1rem;*/
+/*    text-align: right;*/
+/*    min-height: 50px;*/
+/*}*/
+
+/*.result {*/
+/*    font-size: 1.2rem;*/
+/*    color: #00ff00;*/
+/*}*/
+
+/*.error {*/
+/*    color: red;*/
+/*    margin-bottom: 0.5rem;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.buttons {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(4, 1fr);*/
+/*    gap: 0.5rem;*/
+/*}*/
+
+/*.button {*/
+/*    padding: 1rem;*/
+/*    font-size: 1.2rem;*/
+/*    border: none;*/
+/*    border-radius: 4px;*/
+/*    background-color: #444;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*    transition: background-color 0.2s;*/
+/*}*/
+
+/*.button:hover {*/
+/*    background-color: #666;*/
+/*}*/
+
+/*.equals {*/
+/*    grid-column: span 4;*/
+/*    background-color: #007bff;*/
+/*}*/
+
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2C2F38; /* Dark charcoal gray */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F5D26E; /* Soft gold color for Luna's name */
+    margin-bottom: 20px;
+}
+
+.display {
+    width: 100%;
+    text-align: right;
+    font-size: 32px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #3C434F; /* A dark slate gray for the display */
+    color: #fff; /* White text for contrast */
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.result {
+    font-size: 24px;
+    color: #F5D26E; /* Soft gold color for result */
+}
+
+.error {
+    color: #FF4D4D; /* Red for errors */
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.button {
+    padding: 20px;
+    font-size: 18px;
+    background-color: #4A4F59; /* Slightly lighter dark gray for buttons */
+    color: #fff; /* White text for readability */
+    border: 1px solid #333; /* Slight border for depth */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #5A6169; /* Slightly lighter on hover */
+}
+
+.specialButton {
+    background-color: #F5D26E; /* Golden brown for special buttons */
+    color: #2C2F38; /* Dark background for text contrast */
+}
+
+.specialButton:hover {
+    background-color: #D1A86A; /* Slightly darker gold on hover */
+}
